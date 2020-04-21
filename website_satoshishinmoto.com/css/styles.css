@@ -199,6 +199,15 @@
     margin-bottom: 20px;
   }
   
+  /* .works_list {
+    padding-left: 0;
+    margin-bottom: 18px;
+    list-style: none;
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+  } */
+
   .works_list {
     padding-left: 0;
     margin-bottom: 18px;
@@ -249,9 +258,18 @@
     margin-bottom: 18px;
     list-style: none;
     display: flex;
-    flex-direction: row;
+    align-content: space-between;
     flex-wrap: wrap;
   }
+
+  /* .modal_trigger {
+    padding-left: 0;
+    margin-bottom: 18px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  } */
   
   .modal_trigger p {
     margin-top: 0;
@@ -259,8 +277,8 @@
   }
 
 
-  .modal_btn  {
-    height: 250px; 
+  .modal_trigger .modal_btn  {
+    height: 500px;
     padding: 0 16px;
     padding-top: 25%;
     display: inline-block;
@@ -584,7 +602,7 @@ footer {
   }
   
   .works_list li {
-    height: 500px;
+    height: 400px;
     width: 400px;
   }
   
@@ -596,7 +614,7 @@ footer {
   
   .modal_btn.side img {
     height: auto;
-    width: 500px;
+    width: 100%;
   }
 
   .modal-box {

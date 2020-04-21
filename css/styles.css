@@ -1,11 +1,13 @@
 
 /* small mscreen */
 
-@media (max-width: 559px) {
+@media (min-width: 320px) {
   body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     color: rgb(55, 55, 55);
+    margin: 0;
+
   }
   
   
@@ -94,8 +96,14 @@
     padding: 0 8px;
   }
   
+  .fas {
+    font-size: 30px;
+    display: block;
+    text-align: center;
+  }
+
   .container {
-    margin-left: 30px;
+    margin: 18px;
   }
   
   footer {
@@ -168,6 +176,19 @@
   section {
     font-size: 11px;
     padding: 0 12px;
+  }
+
+  .works section {
+    height: 100px;
+  }
+
+ .works a img { 
+    /* cursor: pointer; */
+    width: 100px;
+    height: 100px;
+    margin-right:16px;
+    float: left;
+    box-shadow: 0 0 3px 0 rgba(55, 55, 55, 0.3)  ;
   }
 }
 
@@ -271,6 +292,12 @@
     margin-left: 30px;
   }
   
+  .fas {
+    font-size: 30px;
+    display: block;
+    text-align: center;
+  }
+
   footer {
     max-height: 40px;
     margin: 20px 10px 10px 16px;
@@ -341,5 +368,23 @@
   section {
     font-size: 11px;
     padding: 0 12px;
+  }
+
+  
+  .works section {
+    height: 100px;
+  }
+
+  .works section p {
+    vertical-align: text-bottom;
+  }
+
+ .works a img { 
+    /* cursor: pointer; */
+    width: 100px;
+    height: 100px;
+    margin-right:16px;
+    float: left;
+    box-shadow: 0 0 3px 0 rgba(55, 55, 55, 0.3)  ;
   }
 }
