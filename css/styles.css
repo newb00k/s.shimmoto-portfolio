@@ -21,7 +21,7 @@
     color: rgb(55, 55, 55); 
   }
   
-  
+
   header {
     height: 250px;
     display: block;
@@ -102,6 +102,11 @@
     text-align: center;
   }
 
+  .fas:hover {
+    transform: translateY(10px);
+    transition: 0.5s;
+  }
+
   .container {
     margin: 18px;
   }
@@ -136,8 +141,7 @@
     vertical-align: bottom;
     margin-left: 8px;
   }
-  
-  
+
   .heading h1 {
     margin-top: 60px;
     height: 60px;
@@ -153,16 +157,13 @@
     padding-right:12px;
   }
   
+
   .heading p {
-    vertical-align: middle;
-  }
+    margin-top: 0;
+    }
   
-  .heading a {
-    font-weight: bold;
-  }
   
   .heading a:hover {
-    border-bottom: 1px solid gray;
     cursor: pointer;
   }
   
@@ -173,13 +174,15 @@
   }
   
   
-  section {
+  section { 
+    display: flex;
     font-size: 11px;
     padding: 0 12px;
   }
 
   .works section {
-    height: 100px;
+    height: auto;
+    line-height: 180%;
   }
 
  .works a img { 
@@ -353,10 +356,6 @@
     font-weight: bold;
   }
   
-  .heading a:hover {
-    border-bottom: 1px solid gray;
-    cursor: pointer;
-  }
   
   img {
     height: 50px;
@@ -371,9 +370,6 @@
   }
 
   
-  .works section {
-    height: 100px;
-  }
 
   .works section p {
     vertical-align: text-bottom;
